@@ -9,17 +9,16 @@ The goal with this project, is to simulate a real scenario for a project based o
 The candidates must be granted access to the repository at the start of the challenge. 
 
 ## Tasks
-
-*Set Up Locally*
+### Set Up Locally
 The first requirement is to set up the site on the local machine of the candidate.
 
-*Front End*
+### Front End
 Given the following wireframe as a reference [https://5tto95.axshare.com/contact.html] the candidate should proceed to implement a fully responsive solution for the missing parts of the wireframe.
 
-*Back End*
+### Back End
 The full functionality of form should be implemented using AJAX. The submission should be handled by the default WordPress AJAX endpoint and should enter a new record in a new defined Custom Post Type. The CPT should save the extra details in appositly created custom fields with the Advanced Custom Field plugin.
 
-*Bonus*
+### Bonus
 Indicators for the form being submitted, and successful submission, are not required but are a nice additional touch.
 
 ## Notes
