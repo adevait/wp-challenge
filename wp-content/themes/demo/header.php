@@ -8,7 +8,7 @@
  *
  * @package Lumina
  */
-
+ 
 ?>
 <!doctype html>
 <html style="margin-top: 0px !important;" <?php language_attributes(); ?>>
@@ -20,6 +20,7 @@
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 	<link rel="stylesheet" id="lumina-style-css" href="https://gardensavvy.lumina-previews.com/wp-content/themes/lumina-andrey/style.css?ver=4.9.8" type="text/css" media="all">
 	<link rel="stylesheet" id="child-style-css" href="https://gardensavvy.lumina-previews.com/wp-content/themes/lumina-andrey-child/assets/css/style.css?ver=1.0.0" type="text/css" media="all">
+	<link href="https://fonts.googleapis.com/css?family=Exo+2:100,300,400,500,600,700,800&display=swap" rel="stylesheet">
 
 	<?php wp_head(); ?>
 	
@@ -32,7 +33,7 @@
    <div class="container">
       <div class="row align-items-start">
          <div class="site-logo col-md-3">
-            <a href="#" class="custom-logo-link" rel="home" itemprop="url"><img width="138" height="131" src="/wp-content/themes/demo/images/foor_logo.png" class="custom-logo" alt="Garden Savvy" itemprop="logo"></a>            
+            <a href="#" class="custom-logo-link" rel="home" itemprop="url"><img width="138" height="131" src="<?php print get_template_directory_uri(); ?>/images/foor_logo.png" class="custom-logo" alt="Garden Savvy" itemprop="logo"></a>            
          </div>
          <nav class="main-navigation col-md-9">
             <div class="top-nav-row">
