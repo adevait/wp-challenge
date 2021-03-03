@@ -1,0 +1,63 @@
+
+
+
+ul{
+    list-style-type: none;
+}
+
+
+/* left side */
+.social-holder a {
+    color: inherit!important;
+}
+.contact-holder  .left-side .title-holder h4 {
+    color:#343d04;
+}
+
+.contact-holder  .left-side .top span,.contact-holder  .left-side .top a {
+    color:#444540!important;
+}
+
+/* end left side */
+
+/* right side */
+.contact-holder .right-side{
+    background-color:#5e6539;
+}
+.contact-holder .right-side .title-holder h4{
+    color:#e4be1f;
+}
+.contact-holder .right-side form input {
+    height: 50px;
+}
+.contact-holder .right-side form input,.contact-holder .right-side form textarea {
+    border-color:#7c8256;
+    background-color:#7c8256;
+    border-radius:0.5;
+}
+.contact-holder .right-side form input::placeholder,.contact-holder .right-side form textarea::placeholder{
+    color:white!important;
+    font-size: 1rem;
+}
+.contact-holder .right-side form input:focus,.contact-holder .right-side form textarea:focus{
+    background-color:#7c8256;
+    border-color:#7c8256;
+    box-shadow: none;
+}
+.contact-holder .right-side  form button{
+    background-color: #e3be21;
+    border: 2px solid #9d8006;
+    color: #272f02;
+    border-radius: 0.5;
+    margin-top: 0;
+    -webkit-box-shadow: 2px 2px 5px rgb(0 1 0 / 30%);
+    box-shadow: 2px 2px 5px rgb(0 1 0 / 30%);
+    transition:all 0.2s ease-in-out;
+}
+.contact-holder .right-side  form button:hover{
+    background-color: #9d8006;
+    color:white;
+}
+
+/* end right side */
+
