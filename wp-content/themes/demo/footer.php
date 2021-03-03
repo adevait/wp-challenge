@@ -19,16 +19,16 @@
          <div class="col-lg-6 col-md-5 footer-col footer-subscribe">
             <div class="row align-items-end">
                <div class="col-lg-4 col-md-12">
-                  <img src="/wp-content/themes/demo/images/footer-logo.png">
+                  <img src="<?php echo get_site_url(); ?>/wp-content/themes/demo/images/footer-logo.png">
                </div>
                <div class="col-lg-8 col-md-12 footer-info">
-                  <a href="#" class="footer-mail">info@demo.tst</a>
+                  <a href="#" class="footer-mail">info@gardensavvy.com</a>
                </div>
             </div>
             <div class="row">
-               <div class="col-lg-12">
+               <div class="col-lg-12 col-xl-12 col-md-12 col-12">
                   <h3>Subscribe for offers and updates</h3>
-                  <div class="input-wrapper">
+                  <div class="input-wrapper d-flex flex-column-">
                      <input type="email" name="email" placeholder="Enter your Email Address" required="" data-parsley-error-message="Please provide a valid email." data-parsley-required="true" data-parsley-trigger="focusout" data-parsley-type="email">
                      <a href="#" class="btn btn-footer btn-subscribe eventLayerTrigger" data-category="Mailing List Subscription" data-action="Submitted" data-label="Mail Subscription Go Button" data-value="">GO!</a>
                   </div>
@@ -84,22 +84,22 @@
    </div>
    <ul class="info-menu">
 		<li class="inf-facebook">
-			<a href="#" target="_blank" rel="noopener">
+			<a href="javascript:void(0);" target="_blank" rel="noopener">
 			<img src="https://gardensavvy.lumina-previews.com/wp-content/themes/lumina-andrey-child/assets/images/soc-fb.png">
 			</a>
 		</li>
 		<li class="inf-twitter">
-			<a href="#" target="_blank" rel="noopener">
+			<a href="javascript:void(0);" target="_blank" rel="noopener">
 			<img src="https://gardensavvy.lumina-previews.com/wp-content/themes/lumina-andrey-child/assets/images/soc-twitter.png">
 			</a>
 		</li>
 		<li class="inf-instagram">
-			<a href="#" target="_blank" rel="noopener">
+			<a href="javascript:void(0);" target="_blank" rel="noopener">
 			<img src="https://gardensavvy.lumina-previews.com/wp-content/themes/lumina-andrey-child/assets/images/soc-insta.png">
 			</a>
 		</li>
 		<li class="inf-pinterest">
-			<a href="#" target="_blank" rel="noopener">
+			<a href="javascript:void(0);" target="_blank" rel="noopener">
 			<img src="https://gardensavvy.lumina-previews.com/wp-content/themes/lumina-andrey-child/assets/images/soc-pinterest.png">
 			</a>
 		</li>
@@ -110,19 +110,19 @@
 			<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-491">
 				<a href="https://gardensavvy.lumina-previews.com/catalog/">Catalog</a>
 				<ul class="sub-menu">
-				<li class="menu-item menu-item-type-taxonomy menu-item-object-suppliers_category menu-item-5195"><a href="#">Flowers</a></li>
-				<li class="menu-item menu-item-type-taxonomy menu-item-object-suppliers_category menu-item-5198"><a href="#">Vegetables</a></li>
-				<li class="menu-item menu-item-type-taxonomy menu-item-object-suppliers_category menu-item-5199"><a href="#">Fruits</a></li>
-				<li class="menu-item menu-item-type-taxonomy menu-item-object-suppliers_category menu-item-5196"><a href="#">Plants</a></li>
-				<li class="menu-item menu-item-type-taxonomy menu-item-object-suppliers_category menu-item-5197"><a href="#">Gardening Tools</a></li>
-				<li class="menu-item menu-item-type-taxonomy menu-item-object-suppliers_category menu-item-5200"><a href="#">Associations</a></li>
+				<li class="menu-item menu-item-type-taxonomy menu-item-object-suppliers_category menu-item-5195"><a href="javascript:void(0);">Flowers</a></li>
+				<li class="menu-item menu-item-type-taxonomy menu-item-object-suppliers_category menu-item-5198"><a href="javascript:void(0);">Vegetables</a></li>
+				<li class="menu-item menu-item-type-taxonomy menu-item-object-suppliers_category menu-item-5199"><a href="javascript:void(0);">Fruits</a></li>
+				<li class="menu-item menu-item-type-taxonomy menu-item-object-suppliers_category menu-item-5196"><a href="javascript:void(0);">Plants</a></li>
+				<li class="menu-item menu-item-type-taxonomy menu-item-object-suppliers_category menu-item-5197"><a href="javascript:void(0);">Gardening Tools</a></li>
+				<li class="menu-item menu-item-type-taxonomy menu-item-object-suppliers_category menu-item-5200"><a href="javascript:void(0);">Associations</a></li>
 				</ul>
 			</li>
-			<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-852"><a href="#">Blog</a></li>
-			<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-267"><a href="#">Forum</a></li>
-			<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-470"><a href="#">About</a></li>
-			<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-264"><a href="#">Contact</a></li>
-			<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-263"><a href="#">Get Listed</a></li>
+			<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-852"><a href="javascript:void(0);">Blog</a></li>
+			<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-267"><a href="javascript:void(0);">Forum</a></li>
+			<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-470"><a href="javascript:void(0);">About</a></li>
+			<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-264"><a href="javascript:void(0);">Contact</a></li>
+			<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-263"><a href="javascript:void(0);">Get Listed</a></li>
 		</ul>
 	</div>
 	</div>
@@ -133,6 +133,8 @@
 </div><!-- #page in header.php -->
 
 <?php wp_footer(); ?>
+
+
 
 </body>
 </html>
